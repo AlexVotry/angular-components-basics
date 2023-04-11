@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { headers, data } from './data';
 
 @Component({
   selector: 'app-collections-home',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./collections-home.component.css']
 })
 export class CollectionsHomeComponent {
-
+  headers = headers;
+  data = data;
 }
