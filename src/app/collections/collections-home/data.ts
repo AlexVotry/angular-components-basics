@@ -9,3 +9,9 @@ export const headers = [
   { key: 'age', label: 'Age' },
   { key: 'job', label: 'Job' }
 ]
+
+export const tabs = [
+  { label: "Biography", url: "./" },
+  { label: "Companies", url: "./companies" },
+  { label: "Partners", url: "./partners" }
+]

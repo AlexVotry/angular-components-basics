@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { headers, data } from './data';
+import { headers, data, tabs } from './data';
+import {  } from '../tabs/tabs.component';
 
 @Component({
   selector: 'app-collections-home',
@@ -9,4 +10,5 @@ import { headers, data } from './data';
 export class CollectionsHomeComponent {
   headers = headers;
   data = data;
+  tabs = tabs;
 }
