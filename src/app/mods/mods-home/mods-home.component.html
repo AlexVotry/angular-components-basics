@@ -1,0 +1,23 @@
+<app-divider>
+  Modal Component
+</app-divider>
+
+<button class="ui button" (click)="onClick()">Show modal</button>
+<app-module (close)="onClick()" *ngIf="show">
+  <div modalTitle>
+      Profile Picture
+  </div>
+  <p>
+    Some content of the modal 
+  </p>
+
+  <ng-container modalFooter>
+    <button class="ui button" (click)="onClick()">Close</button>
+  </ng-container>
+</app-module>
+
+<app-divider>
+  Accordion Component
+</app-divider>
+
+<app-accordian [items]="items"></app-accordian>
